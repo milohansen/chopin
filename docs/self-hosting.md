@@ -496,7 +496,8 @@ read Atomic's `models.json` from `$ATOMIC_CODING_AGENT_DIR` (default
 `~/.atomic/agent`), so a provider's base URL can be overridden there. Requests
 send their decision context to the chosen provider and get one attempt each.
 `CONVERSATION_INITIATIVE_MODEL` can point group turn-taking at another
-classifier.
+classifier. To serve the classifier from Azure AI Foundry without either key,
+see [Decisions classifier from Azure AI Foundry](foundry-classifier.md).
 
 Generate the encryption key with:
 
